@@ -28,7 +28,7 @@ class TimedAgitator(ActorBase):
         GPIO.output(int(self.gpio), 0)
 
     def on(self, power=0):
-        print ("GPIO ON %s" % str(self.gpio))
+        print(("GPIO ON %s" % str(self.gpio)))
         GPIO.output(int(self.gpio), 1)
 
 
